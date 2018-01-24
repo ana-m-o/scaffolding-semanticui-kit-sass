@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap-scaffolding",
+  "version": "1.0.0",
+  "description": "Basic project structure with Kit, Sass, Bootstrap, Gulp and BrowserSync",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-kit": "^0.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "merge-stream": "^1.0.1",
+    "node-kit": "^0.9.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  }
+}

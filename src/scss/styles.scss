@@ -1,0 +1,20 @@
+@import 'variables';
+@import 'bootstrap-custom';
+
+// LIBS
+@import 'libs/font-awesome/fontawesome';
+@import 'libs/font-awesome/fa-solid';
+@import 'libs/font-awesome/fa-regular';
+@import 'libs/font-awesome/fa-brands';
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+// GENERAL
+@import 'general';
+
+// PARTIALS
+@import 'partials/header-menu';
+@import 'partials/footer';
+
+// VIEWS
+@import 'views/home';
