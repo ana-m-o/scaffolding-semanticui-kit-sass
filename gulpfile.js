@@ -52,13 +52,13 @@ gulp.task('serve', function() {
 });
 
 
-// Bower dependencies
+// Node dependencies
 var vendors = [
     'bootstrap/dist/js',  
     'jquery/dist'
 ];
 
-//Move bower dependencies from bower_components folder to dist/lib/vendors folder
+//Move node dependencies from node_modules folder to dist/libs folder
 gulp.task('vendors', function() {
   return merge(vendors.map(function(vendor) {
     return gulp.src('node_modules/' + vendor + '/**/*')
